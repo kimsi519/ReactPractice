@@ -1,0 +1,36 @@
+/* MainContent.css */
+.main-content {
+  padding: 20px;
+}
+
+.main-content h2 {
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  width: calc(25% - 20px);
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card__name {
+  margin: 10px 0;
+}
+
+.product-card__price {
+  color: #ff0000;
+  font-weight: bold;
+}
